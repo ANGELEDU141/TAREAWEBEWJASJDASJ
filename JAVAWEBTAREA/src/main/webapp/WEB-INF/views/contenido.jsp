@@ -99,9 +99,6 @@
          <input>
          
          <button  onclick="alert(window.location.href='${pageContext.request.contextPath}/concepto');">Ir a otra página</button>
-       
-        
-        
         </div>
     </div>
     

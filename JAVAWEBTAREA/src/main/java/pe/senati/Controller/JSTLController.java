@@ -9,8 +9,5 @@ public class JSTLController {
 	public JSTLController(){
 	}
 	
-	@GetMapping("/variables")
-	public String variables() {
-		return "Hola";
-	}
+
 }

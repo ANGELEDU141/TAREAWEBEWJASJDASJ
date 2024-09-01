@@ -1,4 +1,4 @@
-package pe.senati.Controller;
+	package pe.senati.Controller;
 
 import java.util.Map;
 
@@ -81,5 +81,34 @@ public class HomeController {
 	
 	
 	
+	/////////////////////////////////////////////////////////////////////////////////
+	
+	
+	@GetMapping("/condicionales")
+	public String condicionales_GET(Map map) {
+		 map.put("sueldo",100.099);
+		return "example3";
+		
+	}
+	
+	
+	@GetMapping("/multiple")
+	public String multiple_GET(Map map) {
+		 map.put("promedio",6);
+		return "example4";
+		
+	}
+	
+	@GetMapping("/Estado Civil")
+	public String estadoco_GET(Map map) {
+		 map.put("sueldo",1000);
+		 map.put("ecivil",'c');
+		 map.put("sexo",'f');
+
+		return "example6";
+		
+	}
+
+
 
 }
