@@ -1,0 +1,59 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>COMPANY CORP</title>
+<style type="text/css">
+
+	button{
+   			margin-top: 20px;
+   			padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #3498db; /* Color de fondo azul */
+            border: none;
+            border-radius: 5px; /* Bordes redondeados */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+            cursor: pointer;
+
+   		}
+   		
+   		</style>
+   		
+   		
+</head>
+<body>
+
+		button{
+   			margin-top: 20px;
+   			padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #3498db; /* Color de fondo azul */
+            border: none;
+            border-radius: 5px; /* Bordes redondeados */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+            cursor: pointer;
+
+   		}
+
+        body {
+        margin: 0;
+        padding: 60px;
+        height: 100vh;
+        display: flex;
+        align-items:center;
+         flex-direction: column;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        font-family: Arial, sans-serif;
+		background: linear-gradient(to right, rgb(255, 255, 255), rgb(173, 216, 230), rgb(0, 128, 255));
+
+    }
+
+</body>
+</html>

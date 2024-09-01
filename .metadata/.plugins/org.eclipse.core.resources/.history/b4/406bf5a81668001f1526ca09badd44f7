@@ -1,0 +1,36 @@
+package pe.senati.Controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+@Controller
+public class HomeController {
+
+
+	public HomeController() {
+		
+		
+		}
+	
+	
+	@GetMapping("/Entrada")
+	public String bienvenido_GET() {
+		return "bienvenido";
+	}
+	
+	@GetMapping("/Portada")
+	public String puerta_GET() {
+		return "puerta";
+	}
+
+	@GetMapping("/Inicio")
+	public String contenido_GET() {
+		return "contenido";
+	}
+	
+	@GetMapping("/Concepto")
+	public String definición_GET() {
+		return "definición";
+	}
+}

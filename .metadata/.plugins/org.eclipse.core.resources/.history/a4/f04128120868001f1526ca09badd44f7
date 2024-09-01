@@ -1,0 +1,17 @@
+package pe.senati.Controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+@controller
+public class JSTLController {
+	
+	public JSTLController(){
+	
+	
+		@GetMapping("/variables")
+		public String variables() {
+			return "SJTL1";
+		}
+
+	}
+}

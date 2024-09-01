@@ -1,0 +1,15 @@
+package pe.senati.Controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class JSTLController {
+	
+	public JSTLController(){
+	}
+	
+	@GetMapping("/variables")
+	public String variables() {
+		return "Hola"
+	}
+}
